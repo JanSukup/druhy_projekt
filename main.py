@@ -7,7 +7,7 @@ print(f'''{oddelovac}
 Vítejte
 {oddelovac}
 Vygeneroval jsem pro Vás náhodné číslo.
-Pojďme hrát bulls&cows. Tak hádej, běží Vám čas!
+Pojďme hrát bulls&cows. Tak hádej, běží Ti čas!
 {oddelovac}''')
 
 #ziskani nahodneho cisla, ktere bude hadano

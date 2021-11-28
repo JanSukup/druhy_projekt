@@ -3,7 +3,7 @@ import random
 def nahodne_cislo():
     ncislo = str(random.randrange(1000,9999))
     list_nahodne_cislo = rozdeleni(ncislo)
-    print(list_nahodne_cislo)
+#    print(list_nahodne_cislo)
     return(list_nahodne_cislo)
 
 def rozdeleni(cislo:str):
