@@ -1,8 +1,19 @@
 import random
 
+#def nahodne_cislo():
+#    ncislo = str(random.randrange(1000,9999))
+#    list_nahodne_cislo = rozdeleni(ncislo)
+#    print(list_nahodne_cislo)
+#    return(list_nahodne_cislo)
+
 def nahodne_cislo():
-    ncislo = str(random.randrange(1000,9999))
-    list_nahodne_cislo = rozdeleni(ncislo)
+    list_nahodne_cislo=[str(random.randrange(1,9))]
+    while len(list_nahodne_cislo) != 4:
+        n_cislo = str(random.randrange(1,9))
+        if n_cislo in list_nahodne_cislo:
+            continue
+        else:
+            list_nahodne_cislo.append(n_cislo)
 #    print(list_nahodne_cislo)
     return(list_nahodne_cislo)
 
